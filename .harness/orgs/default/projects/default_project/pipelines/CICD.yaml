@@ -37,6 +37,6 @@ pipeline:
                   identifier: BuildAndPushDockerRegistry_1
                   spec:
                     connectorRef: dockerconnectornew
-                    repo: nodejs-helloworld:latest
+                    repo: reshma1684/nodejs-helloworld
                     tags:
                       - latest
