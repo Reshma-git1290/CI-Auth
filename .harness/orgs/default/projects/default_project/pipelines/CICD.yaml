@@ -40,3 +40,5 @@ pipeline:
                     repo: reshma1684/nodejs-helloworld
                     tags:
                       - latest
+        delegateSelectors:
+          - docker-delegate
