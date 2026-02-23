@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_CI_Auth_1771842226258-pr-trigger-input-set
+  identifier: Build_CI_Auth_1771842226258prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_CI_Auth_1771842226258
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
